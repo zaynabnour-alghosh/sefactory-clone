@@ -4,3 +4,30 @@
     background-color: gray;
     
 }
+.header{
+    margin-left: 100px;
+}
+.menu{
+    margin-right:100px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left {
+    background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
+    background-size: 100% auto;
+    height:90vh;     
+    flex: 0 0 50%;  
+    z-index:  1;
+  }
+ 
+  .right{
+    background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
+    background-size: 100% auto;    
+    height: 90vh;
+    flex: 0 0 50%;    
+  }
