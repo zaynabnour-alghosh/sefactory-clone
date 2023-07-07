@@ -1,0 +1,6 @@
+.navigation-component{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    
+}
