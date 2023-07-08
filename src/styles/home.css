@@ -45,6 +45,19 @@
     align-items: flex-end;
     margin:20px;
  }
+ .title1{
+    text-align: right;
+    text-transform: capitalize; 
+ }
+ #pt1{
+    color:#fcfcfd;
+    background-color: #363738;
+    font-size:20px;
+    font-family: Noto Sans Mono, sans-serif;
+    padding-left:10px;
+    padding-right: 10px;
+   
+ }
   .right{
     position: relative;
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
