@@ -22,16 +22,30 @@
 }
 
 .left {
+    position: relative;
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
-    background-size: 100% auto;
+    background-size: 100% auto;    
     height:90vh;     
-    flex: 0 0 50%;  
-    
+    flex: 0 0 50%;    
+  }
+  .parent-left{
+    position: relative;
+    display: flex;
+    height: 100%;   
+    background-color: rgba(152, 100, 218, 0.93); 
   }
  
   .right{
+    position: relative;
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
     background-size: 100% auto;    
     height: 90vh;
     flex: 0 0 50%;    
   }
+  .parent-right{
+    position: relative;
+    display: flex;
+    height: 100%;
+    background-color: rgba(128, 126, 129, 0.93);    
+  }
+ 
