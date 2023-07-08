@@ -49,7 +49,7 @@
     text-align: right;
     text-transform: capitalize; 
  }
- #pt1{
+ #left-h1-s1{
     color:#fcfcfd;
     background-color: #363738;
     font-size:20px;
@@ -82,4 +82,17 @@
     align-items: flex-start;
     margin:20px;
  }
+ .title2{
+    text-align:left;
+    text-transform: capitalize; 
+ }
+ #right-h1-s1{
+    color: #363738;
+    background-color:#fcfcfd;
+    font-size:20px;
+    font-family: Noto Sans Mono, sans-serif;
+    padding-left:10px;
+    padding-right: 10px;
+ }
+ 
  
