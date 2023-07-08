@@ -8,8 +8,7 @@ body{
     top: 70px;
     bottom: auto;
     left: 0%;
-    right:0%
-    
+    right:0%;    
 }
 .header{
     margin-left: 100px;
@@ -17,43 +16,41 @@ body{
 .menu{
     margin-right:100px;
 }
-
 .home{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .left {
     position: relative;
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
     background-size: 100% auto;    
     height:100vh;     
     flex: 0 0 50%;    
-  }
-  .parent-left{
+}
+.parent-left{
     position: relative;
     display: flex;
     height: 100%;   
     background-color: rgba(152, 100, 218, 0.93); 
-  }
-  .left-container{
+}
+.left-container{
     display:flex;
     justify-content: center;
     align-items: center;   
-  }
- .content-left{
+}
+.content-left{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin:20px;
- }
+}
  .title1{
     text-align: right;
     text-transform: capitalize; 
     margin-right: 30px;
     line-height: 2;
- }
+}
  #left-h1-s1{
     color:#fcfcfd;
     background-color: #363738;
@@ -69,55 +66,86 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: Noto Sans Mono, sans-serif;
-
- }
-  .right{
+}
+#description-left{
+    text-align: justify;
+    direction: rtl;
+    font-size: 22;
+    color:#fcfcfd;
+    line-height: 1.5;
+    margin-top: 40;
+    margin-bottom: 40;
+    max-width: 450px;   
+    word-spacing: 5px;
+    overflow-wrap: break-word;
+    padding-right:30px;
+    text-align: justify;
+    margin-left: 150px;
+    font-weight: lighter;
+    font-family: "Noto Sans Mono", sans-serif;
+}
+.right{
     position: relative;
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
     background-size: 100% auto;    
     height: 100vh;
     flex: 0 0 50%;    
-  }
+}
   .parent-right{
     position: relative;
     display: flex;
     height: 100%;
     background-color: rgba(35, 35, 35, .85);    
-  }
-  .right-container{
+}
+.right-container{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .content-right{
+}
+.content-right{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin:20px;
- }
- .title2{
+}
+.title2{
     text-align:left;
     text-transform: capitalize; 
     margin-left: 30px;
     line-height: 2;
- }
- #right-h1-s1{
+}
+#right-h1-s1{
     color: #363738;
     background-color:#fcfcfd;
     font-size:25px;
     font-family: Noto Sans Mono, sans-serif;
     padding-left:10px;
     padding-right: 10px;
- }
- #right-h1-s2{
+}
+#right-h1-s2{
     color:#fcfcfd;
     font-size: 28 px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: Noto Sans Mono, sans-serif;
+}
+#description-right{    
+    text-align: left;
+    font-size: 22;
+    color:#fcfcfd;
+    line-height: 1.5;
+    margin-top: 40;
+    margin-bottom: 40;
+    max-width: 450px;   
+    word-spacing: 5px;
+    overflow-wrap: break-word;
+    padding-left:30px;
+    text-align: justify;
+    font-weight: lighter;
+    font-family: "Noto Sans Mono", sans-serif;
+}   
 
- }
 
  
  
