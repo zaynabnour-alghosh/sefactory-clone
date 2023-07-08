@@ -39,7 +39,12 @@
     justify-content: center;
     align-items: center;   
   }
- 
+ .content-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin:20px;
+ }
   .right{
     position: relative;
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
@@ -47,16 +52,21 @@
     height: 90vh;
     flex: 0 0 50%;    
   }
+  .parent-right{
+    position: relative;
+    display: flex;
+    height: 100%;     
+  }
   .right-container{
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .parent-right{
-    position: relative;
+  .content-right{
     display: flex;
-    height: 100%;
-    background-color: rgba(128, 126, 129, 0.93);    
-  }
+    flex-direction: column;
+    align-items: flex-start;
+    margin:20px;
+ }
  
  
