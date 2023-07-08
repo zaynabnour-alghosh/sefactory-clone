@@ -1,7 +1,8 @@
 .navigation-component{
     display: flex;
-    justify-content: space-between;
-    background-color: gray;
+    justify-content: space-between;   
+    position:absolute;
+    
     
 }
 .header{
@@ -22,7 +23,7 @@
     background-size: 100% auto;
     height:90vh;     
     flex: 0 0 50%;  
-    z-index:  1;
+    
   }
  
   .right{
