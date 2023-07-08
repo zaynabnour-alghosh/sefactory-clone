@@ -69,21 +69,17 @@ body{
     font-family: Noto Sans Mono, sans-serif;
 }
 #description-left{
-    text-align: justify;
+    
     direction: rtl;
-    font-size: 22;
+    font-size: 16;
     color:#fcfcfd;
     line-height: 1.5;
     margin-top: 40;
-    margin-bottom: 40;
-    max-width: 450px;   
-    word-spacing: 5px;
+    margin-bottom: 40;    
     overflow-wrap: break-word;
-    padding-right:30px;
-    text-align: justify;
-    margin-left: 150px;
-    font-weight: lighter;
-    font-family: "Noto Sans Mono", sans-serif;
+    padding-right:30px;   
+    margin-left: 150px;   
+    font-family:'Courier New', Courier, monospace;
 }
 .translucent-button-1{
     background-color: #363738;
@@ -152,12 +148,11 @@ body{
     margin-top: 40;
     margin-bottom: 40;
     max-width: 450px;   
-    word-spacing: 5px;
     overflow-wrap: break-word;
     padding-left:30px;
     text-align: justify;
     font-weight: lighter;
-    font-family: "Noto Sans Mono", sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }   
 .translucent-button-2{
     background-color:#fcfcfd;
@@ -191,6 +186,14 @@ body{
     flex-direction: row;
     justify-content: space-between;
     max-width: 1100px;
+}
+.top-left{
+    display: flex;
+    flex-direction: row;
+    width:700px;
+    gap:30px;
+    align-items: baseline;
+    font-family:'Courier New', Courier, monospace;
 }
 iframe{
     display: flex;    
