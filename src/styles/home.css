@@ -1,3 +1,6 @@
+body{
+    margin:0;
+}
 .navigation-component{
     display: flex;
     justify-content: space-between;   
@@ -25,7 +28,7 @@
     position: relative;
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
     background-size: 100% auto;    
-    height:90vh;     
+    height:100vh;     
     flex: 0 0 50%;    
   }
   .parent-left{
@@ -48,21 +51,31 @@
  .title1{
     text-align: right;
     text-transform: capitalize; 
+    margin-right: 30px;
+    line-height: 2;
  }
  #left-h1-s1{
     color:#fcfcfd;
     background-color: #363738;
-    font-size:20px;
+    font-size:25px;
     font-family: Noto Sans Mono, sans-serif;
     padding-left:10px;
-    padding-right: 10px;
-   
+    padding-right: 10px;   
+ }
+ #left-h1-s2{
+    color:#fcfcfd;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Noto Sans Mono, sans-serif;
+
  }
   .right{
     position: relative;
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
     background-size: 100% auto;    
-    height: 90vh;
+    height: 100vh;
     flex: 0 0 50%;    
   }
   .parent-right{
@@ -85,14 +98,26 @@
  .title2{
     text-align:left;
     text-transform: capitalize; 
+    margin-left: 30px;
+    line-height: 2;
  }
  #right-h1-s1{
     color: #363738;
     background-color:#fcfcfd;
-    font-size:20px;
+    font-size:25px;
     font-family: Noto Sans Mono, sans-serif;
     padding-left:10px;
     padding-right: 10px;
  }
+ #right-h1-s2{
+    color:#fcfcfd;
+    font-size: 28 px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Noto Sans Mono, sans-serif;
+
+ }
+
  
  
