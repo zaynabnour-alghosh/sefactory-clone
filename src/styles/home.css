@@ -34,6 +34,11 @@
     height: 100%;   
     background-color: rgba(152, 100, 218, 0.93); 
   }
+  .left-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+  }
  
   .right{
     position: relative;
@@ -42,10 +47,16 @@
     height: 90vh;
     flex: 0 0 50%;    
   }
+  .right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .parent-right{
     position: relative;
     display: flex;
     height: 100%;
     background-color: rgba(128, 126, 129, 0.93);    
   }
+ 
  
