@@ -167,38 +167,5 @@ body{
     font-family: "Noto Sans Mono", sans-serif;
     font-weight: bold;
 }
-.hello{
-    background-color: rgb(241, 242, 243);
-    height: 100vh;
-    padding-left: 60px;
-    padding-right: 60px;   
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-}
-.hello-body{
-    max-width: 1500px;
-}
-.hello-top{
-    flex:0, auto;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 1100px;
-}
-.top-left{
-    display: flex;
-    flex-direction: row;
-    width:700px;
-    gap:30px;
-    align-items: baseline;
-    font-family:'Courier New', Courier, monospace;
-}
-iframe{
-    display: flex;    
-    width: 1100px;
-    height:600px;
-}
- 
- 
+
+
