@@ -8,7 +8,8 @@ body{
     top: 70px;
     bottom: auto;
     left: 0%;
-    right:0%;    
+    right:0%;  
+    flex-wrap: wrap;  
 }
 .header{
     margin-left: 100px;
@@ -19,14 +20,14 @@ body{
 .home{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 .left {
     position: relative;
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
     background-size: 100% auto;    
     height:100vh;     
-    flex: 0 0 50%;    
+    flex: 0 1 50%;    
 }
 .parent-left{
     position: relative;
@@ -102,7 +103,7 @@ body{
     background-image: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
     background-size: 100% auto;    
     height: 100vh;
-    flex: 0 0 50%;    
+    flex: 0 1 50%;    
 }
   .parent-right{
     position: relative;
@@ -171,7 +172,11 @@ body{
     font-family: "Noto Sans Mono", sans-serif;
     font-weight: bold;
 }
-
+.hello{
+    background-color: rgb(241, 242, 243);
+    height: 100vh;
+    margin:0px;
+}
 
  
  
