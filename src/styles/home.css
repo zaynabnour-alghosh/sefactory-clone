@@ -589,3 +589,33 @@ li{
     margin:0;
     font-weight: 900;
 }
+.faqs{    
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.fq{
+    background-color: rgb(35, 35, 35);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;    
+    padding:20px;
+    margin-left: 40px;    
+    color: #fcfcfd;
+    font-family: 'Courier New', Courier, monospace;
+    max-width:1000px;
+    font-weight: 900;
+}
+.view{
+    background-color: rgb(35, 35, 35);   
+    text-align: right;   
+    padding:20px;
+    margin-left: 40px;    
+    color: #fcfcfd;
+    font-family: 'Courier New', Courier, monospace;
+    max-width:1300px;
+    font-weight: 900;
+}
