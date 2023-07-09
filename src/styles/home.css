@@ -550,3 +550,42 @@ li{
     font-size:15px;
     font-family: 'Courier New', Courier, monospace;
 }
+.testimonials{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(241, 242, 243);
+    padding-top:50px;
+    padding-bottom: 50px;;
+}
+.alumna{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.alum-foot{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-content: baseline;
+    padding: 0;
+}
+.alum-profile img{
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    box-sizing:border-box;
+    
+    
+}
+.alumna-desc{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.alumna-desc h5{
+    margin:0;
+    font-weight: 900;
+}
