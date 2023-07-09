@@ -242,6 +242,10 @@ iframe{
     padding-top:50px;
     padding-bottom: 50px;;
 }
+.mile{
+    display: flex;
+    justify-content: space-evenly;
+}
 .mile-header{
     background-color:white;
     display: flex;
@@ -283,20 +287,20 @@ iframe{
     padding: 20px 0;
     font-size: 30px;
     border-radius: 20px;
-  }
+}
 .item1 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start:1;
     grid-row-end:3;
-  }
-  .item2 {
+ }
+.item2 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start:1;
     grid-row-end:1;
-  }
-  .item3 {
+}
+.item3 {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start:1;
@@ -312,13 +316,69 @@ iframe{
     color: #363738;
     text-align: center;
     font-size: 16px;
-    /* font-weight: 400; */
-    
     text-align: center;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 li{
     list-style-type: none;
     font-size:20px
+}
+.programs{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(255, 198, 53);
+    padding-top:50px;
+    padding-bottom: 50px;;
+}
+.pro-header{
+    background-color:rgb(255, 198, 53);
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    width:1000px;
+    
+}
+.pro-top{
+    background-color:rgb(255, 198, 53);
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    font-family:'Courier New', Courier, monospace;
+    justify-content: space-between;
+    padding-top: 20px;  
+      
+}
+.pro-top h1{
+    color:#fcfcfd;
+    font-weight:bold;
+    font-size: 30px;  
+    background-color: #363738;
+    padding-left: 10px;
+}
+.pro-top-left{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+.pro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(255, 198, 53);
+}
+.promenu a{
+    text-decoration: none;
+    color: #fcfcfd;
+    font-size: 50px;
+    padding-left:40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.fcs{
+    background-color: #363738;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
