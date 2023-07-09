@@ -372,7 +372,7 @@ li{
 .promenu a{
     text-decoration: none;
     color: #fcfcfd;
-    font-size: 50px;
+    font-size: 24px;
     padding-left:40px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
@@ -394,7 +394,6 @@ li{
     min-height: 100%;
     display: flex;
     justify-content: center;
-
 }
 .prog-parent{
     display: flex;
@@ -410,7 +409,6 @@ li{
     color: #fcfcfd;
     background-color: rgb(54, 55, 56);
     max-width:1000px;
-
 }
 .prog-left{
     display: flex;
@@ -445,14 +443,14 @@ li{
     padding-top:10px;
     padding-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: black;
+    background-color:rgb(35, 35, 35);
     padding-left: 20px;
     font-size:15px;
 }
 .info{
     margin-top: 20px;
     text-decoration: none;
-    background-color: black;
+    background-color:rgb(35, 35, 35);
     padding:10px;
 }
 .info a{
@@ -460,4 +458,95 @@ li{
     font-weight: bolder;
     color: rgb(220, 222, 225);
     font-size:15px;
+}
+.hire{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 55, 56);
+    padding-top:50px;
+    padding-bottom: 50px;;
+}
+.hire-header{
+    background-color: rgb(54, 55, 56);
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    width:1000px;
+}
+.hire-top{
+    background-color: rgb(54, 55, 56);
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    font-family:'Courier New', Courier, monospace;
+    justify-content: space-between;
+    padding-top: 20px;    
+}
+.hire-top h1{
+    color:#fcfcfd;
+    font-weight:bold;
+    font-size: 30px;   
+    padding-left: 10px;
+}
+.hire-top-left{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+.hire-parent{
+    display: flex;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    flex-direction: row;
+    line-height: 15px;
+    padding:20px;
+    margin-left: 40px;
+    row-gap: 24px;
+    color: #fcfcfd;
+    background-color: rgb(35, 35, 35);
+    max-width:1000px;
+}
+.hire-content{
+    color:rgb(54, 55, 56);
+    box-sizing: border-box;
+    font-family:"Noto Sans Mono", sans serif;
+    font-size: 18px;
+    line-height: 15px;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hire-list li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;   
+    gap: 2px;
+    color: rgb(220, 222, 225);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.hire-title{
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hire-desc p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(220, 222, 225);
+}
+.hire-info{       
+    background-color:rgb(54, 55, 56);
+    text-align: right;
+    padding: 10px;
+    padding-right:20px;
+}
+.hire-info a{
+    color:#fcfcfd;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(220, 222, 225);
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
 }
