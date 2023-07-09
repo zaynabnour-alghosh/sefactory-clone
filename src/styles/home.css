@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: space-between;   
     position:absolute;
-    top: 70px;
+    top: 50px;
     bottom: auto;
     left: 0%;
     right:0%;  
@@ -508,6 +508,11 @@ li{
     background-color: rgb(35, 35, 35);
     max-width:1000px;
 }
+.hire-left{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
 .hire-content{
     color:rgb(54, 55, 56);
     box-sizing: border-box;
@@ -541,6 +546,7 @@ li{
     text-align: right;
     padding: 10px;
     padding-right:20px;
+    margin-bottom: 20px;
 }
 .hire-info a{
     color:#fcfcfd;
@@ -612,10 +618,144 @@ li{
 .view{
     background-color: rgb(35, 35, 35);   
     text-align: right;   
-    padding:20px;
+    padding:10px;
     margin-left: 40px;    
     color: #fcfcfd;
     font-family: 'Courier New', Courier, monospace;
     max-width:1300px;
     font-weight: 900;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(40, 238, 167);
+    padding-top:50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    gap:75px;
+    align-items: center;
+}
+.con-header{
+    background-color:rgb(40, 238, 167);
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    width:1000px;
+}
+.con-top{
+    background-color:rgb(40, 238, 167);
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    font-family:'Courier New', Courier, monospace;
+    justify-content: space-between;
+    padding-top: 20px;    
+}
+.con-top h1{
+    color:#fcfcfd;
+    font-weight:bold;
+    font-size: 30px;  
+    background-color: #363738;
+    padding-left: 10px;
+
+}
+.con-top-left{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+.con-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.direction{
+    background-color: rgb(35, 35, 35);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;    
+    padding:30px;
+    margin-left: 40px;    
+    color: #fcfcfd;
+    font-family: 'Courier New', Courier, monospace;   
+    font-weight: 900;
+    height:70vh;   
+}
+.direction h5 {
+    color:rgb(220, 222, 225);
+}
+.direction p {
+    color:rgb(220, 222, 225);
+    margin: 0;
+}
+.con-form{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;   
+    background-color:  rgb(35, 35, 35);
+    height: 100%;
+    display: flex;
+     width: auto;
+    margin-left:100px;
+    height: 520px;
+    gap:30px;
+    padding-left: 30px;
+    color:rgb(220, 222, 225);
+}
+.f-container{
+    display: flex;
+    flex-direction: column;
+}
+.fcontent{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: flex-start;
+    flex: 1;
+    height: 100%;
+}
+#cform{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-self: stretch;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.frow{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    padding-right: 30px;
+}
+.name{
+    flex:1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    padding-top:10px;
+}
+.ftitle1{
+    padding-top:25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ftitle2{
+    padding-top:2px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#28eea7
+}
+.label{
+    font-size: 12px;
+    color: #fcfcfd;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.text-input{
+    height:40px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
